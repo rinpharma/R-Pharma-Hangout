@@ -1,0 +1,96 @@
+12:01:09 From Harvey Lieberman to Everyone:
+	R/Pharma etiquette.  Please be polite to all participants.  Mute microphone unless speaking.
+	R/Pharma hangouts are not recorded so please speak freely.  We understand that thoughts are those of individuals and not of the institutions that they represent.
+	Any issues please ping one of the co-hosts (Phil, Jared or Harvey).
+
+	gtsummary https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/POS_PP20.pdf
+
+	webr pilot submission https://rconsortium.github.io/submissions-wg/pilot4.html
+
+	https://quarto.org/docs/dashboards/
+
+	https://books.ropensci.org/targets/
+
+	duckdb + wasm sounds 🔥
+
+	dataset.json
+
+	https://www.cdisc.org/dataset-json
+
+	https://advance.phuse.global/display/WEL/Dataset-JSON+as+Alternative+Transport+Format+for+Regulatory+Submissions
+
+	R/Pharma dataset-JSON (Jesse Anderson, FDA) Dataset-JSON as Alternative Transport Format for Regulatory Submissions | R/Pharma (rinpharma.com)
+
+	For fun historical context, they started talking about this in 2017 which is probably why not parquet https://wiki.cdisc.org/download/attachments/124204045/Transport%20for%20the%20Next%20Generation%20Version%201.0.pdf?api=v2&modificationDate=1628184569292&version=1
+
+	Lots of good duckdb, parquet info here https://posit-conf-2023.github.io/arrow/
+	The 2024 workshop will have even more on those topics...once the authors finish writing it 😅
+
+	Xpt is also a binary
+
+	it would be great to hear more about everyone's set ups around reproducibility aspect of generating outputs in R (R packages, or transitions from rmarkdown to quarto etc., maintaining Shiny apps) not only on a submission level but also general daily work
+
+	
+	Containers. It's the only way to be sure...
+	+1 to containers plus podman over docker because of FDA preference
+	podman yes
+	https://podman.io/
+
+	https://www.appsilon.com/post/docker-vs-podman-vs-singularity#key-differences
+
+	Singularity on HPC
+
+	Also completely BANNING desktop R... ;-)
+
+	https://rconsortium.github.io/submissions-wg/pilot4.html podman etc
+
+	Buf if you have a container - what information do you need to retain to reproduce the container? The whole container or just the Dockerfile or singularity recipe ? How tight do you need to be to get away with just the Dockerfile/singularity recipe
+
+
+
+	https://github.com/sol-eng/singularity-rstudio
+
+	I wrote some about these topics here https://www.lexjansen.com/phuse-us/2024/os/PAP_OS10.pdf
+	down in part 6. Images/HPC/Docker
+
+	https://wlandau.github.io/crew.aws.batch/
+
+	https://books.ropensci.org/targets/cloud-storage.html
+
+	https://www.nextflow.io/
+
+	submissions need to be open in general. software and data as much as possible
+
+	https://insightsengineering.github.io/nest/
+
+	For me, “pre-competitive space” is often the verbiage that does the trick with executives
+
+	novo https://www.youtube.com/watch?v=t33dS17QHuA&ab_channel=PositPBC		Novo spoke about that here too:
+
+	https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PRE_HoW01.pdf
+
+
+	Just as a Public Service Announcement: I am working through an R Consortium Working Group to take the "Master the Tidyverse" / "Remaster the tidyverse" course material and recast it using pharma data examples. Anyone interesting in collaborating, please drop me an email at Mike.K.Smith@Pfizer.com or follow the repo here: RConsortium/remaster-the-tidyverse-wg: Converting "Master the tidyverse" training material to use pharma-centric data. (github.com)
+	that sounds interesting!!
+
+	Would love to know how people deal with communicating package versioning in submissions - I've seen some reports of pushback on using things like renv whereas other folks have had positive responses to it
+
+
+	Speaking of Rshiny, is it possible to use open-source r package or R Shiny package for one's own service? For example, {teal} provides a really good template and can we manipulate those modules and create a Shiny apps based on that for other service?
+
+	GSK spoke about this some here https://www.lexjansen.com/phuse-us/2024/os/PAP_OS16.pdf
+
+	For me I am asked to train other pharma companies on my open source packages.  This is often where I get push pack
+
+
+	would be awesome to get some of it here too https://pharmaverse.github.io/examples/
+
+	Feel free to ping Shannon Pileggi on the conversion process as I know she had to do the keynote -> quarto jump for the WTF workshop materials from Jenny
+
+
+	I'm actually hoping that we can use similar example datasets across pharmaverse / admiral and Master the Tidyverse so that there's a bit of continuity. So come and learn the tidyverse way, then let's show you the pharmaverse way...
+
+
+	https://rinpharma.com/contact/		info@rinpharma.com
+
+	Thanks - this was excellent, really enjoyed participating, thanks folks for organising :)
