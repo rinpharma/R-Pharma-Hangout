@@ -1,0 +1,22 @@
+12:19:16 From OpenSource Pharma to Everyone:
+	Zero to nix https://zero-to-nix.com
+
+	https://b-rodrigues.github.io/rix/
+
+	https://github.com/rpodcast/r_dev_projects
+
+	If you had PC SAS Rmd was able to do. So I think it is possible in quarto but you have to have PC SAS which most are moving away from.
+
+	Presentation by Meghan Hall at posit conf https://meghansaha.github.io/please_let_me_merge/#/title-slide
+
+	Reacted to "Presentation by Megh..." with 👍
+
+	Maelle Salmon’s blog post about her package for learning Git https://masalmon.eu/2024/01/18/saperlipopette-package-practice-git/
+
+	Another option is GitLab https://about.gitlab.com (this can be deployed entirely within your organization)
+
+	Another effort related to R and Docker https://rocker-project.org
+
+	Peter Solymos blog https://hosting.analythium.io
+
+	https://hosting.analythium.io/cicd-patterns-with-github-actions-and-docker/
